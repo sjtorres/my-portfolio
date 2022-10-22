@@ -1,7 +1,14 @@
+import MainContent from "./components/MainContent"
+import Sidebar from "./components/Sidebar"
+
+import "./styles/components/app.sass"
+
 function App() {
   return (
-      <div>
-        <h1>Olá Meu Portfólio</h1>
+      <div id="portfolio">
+        <h1>Sandro Torres</h1>
+        <Sidebar />
+        <MainContent />
     </div>
   )
 }
